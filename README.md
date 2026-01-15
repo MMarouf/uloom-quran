@@ -29,6 +29,28 @@ A comprehensive AI-powered platform for Quranic Sciences (علوم القرآن)
 
 ---
 
+## Screenshots
+
+### Quran Browser
+![Quran Surah View](images/Quran_surah.png)
+
+### القراءات العشر (Ten Readings)
+![Qiraat Differences](images/Qiraat.png)
+
+### التفاسير المقارنة (Comparative Tafsir)
+![Tafsir Comparison](images/tafsir.png)
+
+### أسباب النزول (Revelation Contexts)
+![Asbab al-Nuzul](images/asbab_nzol.png)
+
+### الإعراب (Grammatical Analysis)
+![I'rab Analysis](images/eraab.png)
+
+### AI Semantic Search
+![AI Search](images/AI.png)
+
+---
+
 ## Architecture
 
 ```
