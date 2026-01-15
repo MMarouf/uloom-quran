@@ -20,6 +20,10 @@ COPY run.py .
 # Copy SQLite database (embedded for read-heavy workload)
 COPY db/uloom_quran.db ./db/uloom_quran.db
 
+# Copy data files (mutashabihat, exports)
+COPY data/mutashabihat/ ./data/mutashabihat/
+COPY data/exports/ ./data/exports/
+
 # Expose port (Cloud Run uses 8080)
 EXPOSE 8080
 
