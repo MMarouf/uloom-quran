@@ -24,7 +24,12 @@ class QuranpediaService:
     """
 
     def __init__(self, db_path: str = None):
-        self.db_path = db_path or "/home/hesham-haroun/Quran/db/uloom_quran.db"
+        if db_path:
+            self.db_path = db_path
+        else:
+            # Use path relative to this file's location
+            import os
+            self.db_path = os.path.join(os.path.dirname(__file__), "../../db/uloom_quran.db")
         self._ensure_cache_tables()
 
     @contextmanager
