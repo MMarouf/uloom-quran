@@ -16,7 +16,7 @@ import os
 from pathlib import Path
 from collections import defaultdict
 
-DB_PATH = '/home/hesham-haroun/Quran/db/uloom_quran.db'
+DB_PATH = 'db/uloom_quran.db'
 PROCESSED_SOURCE = '/home/hesham-haroun/Quran/data/processed/qiraat_audio_sources.json'
 RAW_AUDIO_DIR = '/home/hesham-haroun/Quran/data/raw/Quran-Data/data/json/audio/'
 

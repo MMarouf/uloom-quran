@@ -8,7 +8,7 @@ import sqlite3
 import json
 import os
 
-DB_PATH = '/home/hesham-haroun/Quran/db/uloom_quran.db'
+DB_PATH = 'db/uloom_quran.db'
 
 def insert_tajweed_rules():
     conn = sqlite3.connect(DB_PATH)

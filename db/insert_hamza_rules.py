@@ -9,8 +9,8 @@ import sqlite3
 import json
 from pathlib import Path
 
-DB_PATH = Path("/home/hesham-haroun/Quran/db/uloom_quran.db")
-JSON_PATH = Path("/home/hesham-haroun/Quran/data/processed/hamza_rules.json")
+DB_PATH = Path("db/uloom_quran.db")
+JSON_PATH = Path("data/processed/hamza_rules.json")
 
 def get_qari_id(cursor, name_arabic):
     """Get qari ID by Arabic name pattern."""

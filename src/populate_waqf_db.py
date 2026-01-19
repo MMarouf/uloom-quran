@@ -8,7 +8,7 @@ import sqlite3
 import json
 import os
 
-DB_PATH = "/home/hesham-haroun/Quran/db/uloom_quran.db"
+DB_PATH = "db/uloom_quran.db"
 JSON_PATH = "/home/hesham-haroun/Quran/data/processed/qiraat_waqf.json"
 
 def create_waqf_tables(conn):

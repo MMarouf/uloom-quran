@@ -19,7 +19,7 @@ from collections import defaultdict
 from typing import Dict, List, Tuple, Set, Optional
 
 # Database path
-DB_PATH = Path("/home/hesham-haroun/Quran/db/uloom_quran.db")
+DB_PATH = Path("db/uloom_quran.db")
 
 # Expected 20 riwayat with their qari associations
 EXPECTED_RIWAYAT = {

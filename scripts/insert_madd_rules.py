@@ -9,7 +9,7 @@ from pathlib import Path
 
 def main():
     # Connect to database
-    db_path = Path('/home/hesham-haroun/Quran/db/uloom_quran.db')
+    db_path = Path('db/uloom_quran.db')
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
